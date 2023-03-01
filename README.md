@@ -1,0 +1,2 @@
+# Active-Shield
+利用软路由openclash给NVIDIA Geforce Experience激活Shield串流的简易bat脚本
