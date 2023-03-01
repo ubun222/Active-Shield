@@ -1,4 +1,4 @@
-TASKKILL /IM "NVIDIA Geforce Experience.exe"
+TASKKILL /F /IM "NVIDIA Geforce Experience.exe"
 timeout /T 1 /NOBREAK
 net stop NVDisplay.ContainerLocalSystem
 netsh interface ip set address "WLAN 3" static  192.168.2.115 255.255.255.0 192.168.2.97 1
