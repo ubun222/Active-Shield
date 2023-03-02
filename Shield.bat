@@ -11,5 +11,5 @@ timeout /T 3 /NOBREAK
 explorer C:\Users\Public\Desktop\GeForce Experience.lnk
 timeout /T 20 /NOBREAK
 netsh interface ip set address "WLAN 3" dhcp
-netsh interface ip set dns "WLAN 3" DHCP
+netsh interface ip set dns "WLAN 3" dhcp
 timeout /T 3 /NOBREAK
