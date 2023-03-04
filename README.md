@@ -3,8 +3,9 @@
 1. 想办法将将gfwsl.geforce.com加入国外流量规则里
 2. 下载该仓库
 3. 编辑Shield.bat 
-1. 将192.168.2.97改成旁路由IP
-2. 将192.168.2.115改成PC的IP
+*. 将WLAN 3改成PC的网络名称
+*. 将192.168.2.115改成PC的IP
+*. 将192.168.2.97改成旁路由IP
 ```
 timeout /T 20 /NOBREAK
 TASKKILL /F  /IM "NVIDIA Geforce Experience.exe"
