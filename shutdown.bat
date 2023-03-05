@@ -1,0 +1,1 @@
+explorer C:\Users\***UserName***\Desktop\shutdown.lnk
