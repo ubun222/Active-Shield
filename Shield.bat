@@ -1,4 +1,4 @@
-timeout /T 16 /NOBREAK
+timeout /T 20
 TASKKILL /F  /IM "NVIDIA Geforce Experience.exe"
 timeout /T 2 /NOBREAK
 net stop NvContainerLocalSystem
