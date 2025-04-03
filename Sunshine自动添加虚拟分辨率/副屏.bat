@@ -3,7 +3,7 @@ REM sunshine Application  Undo Command : cmd /C "C:\Users\cb199\Documents\主屏
 
 pnputil /disable-device  "ROOT\DISPLAY\0000"
 
-timeout /t 1 |  C:\VirtualDisplayDriver\res++.bat %SUNSHINE_CLIENT_WIDTH% %SUNSHINE_CLIENT_HEIGHT%
+timeout /t 0 |  C:\VirtualDisplayDriver\res++.bat %SUNSHINE_CLIENT_WIDTH% %SUNSHINE_CLIENT_HEIGHT%
 
 pnputil /enable-device  "ROOT\DISPLAY\0000"
 
