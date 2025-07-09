@@ -46,7 +46,7 @@ setlocal disabledelayedexpansion
           echo %insert5%
             echo %%A
         ) else (
-            echo %%A
+            echo.%%A
         )
         
     )
